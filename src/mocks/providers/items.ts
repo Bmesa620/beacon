@@ -7,48 +7,44 @@ export class Items {
   items: Item[] = [];
 
   defaultItem: any = {
-    "name": "Burt Bear",
-    "profilePic": "assets/img/speakers/bear.jpg",
-    "about": "Burt is a Bear.",
+    "name": "Brian Mesa",
+    "profilePic": "assets/img/speakers/Brian.PNG",
+    "status": "Okay",
+    "location" : "Brooklyn Navy Yards"
   };
 
 
   constructor() {
     let items = [
       {
-        "name": "Burt Bear",
-        "profilePic": "assets/img/speakers/bear.jpg",
-        "about": "Burt is a Bear."
+        "name": "Brian Mesa",
+        "profilePic": "assets/img/speakers/Brian.PNG",
+        "status": "Okay",
+        "location" : "Brooklyn Navy Yards"
       },
       {
-        "name": "Charlie Cheetah",
-        "profilePic": "assets/img/speakers/cheetah.jpg",
-        "about": "Charlie is a Cheetah."
+        "name": "Karan Patel",
+        "profilePic": "assets/img/speakers/karan.jpg",
+        "status": "Okay",
+        "location" : "Brooklyn Navy Yards"
       },
       {
-        "name": "Donald Duck",
-        "profilePic": "assets/img/speakers/duck.jpg",
-        "about": "Donald is a Duck."
+        "name": "Fayyoz Nasimov",
+        "profilePic": "assets/img/speakers/fayyoz.jpeg",
+        "status": "Okay",
+        "location" : "Brooklyn Navy Yards"
       },
       {
-        "name": "Eva Eagle",
-        "profilePic": "assets/img/speakers/eagle.jpg",
-        "about": "Eva is an Eagle."
+        "name": "Kusum Neupane",
+        "profilePic": "assets/img/speakers/kusum.jpg",
+        "status": "Okay",
+        "location" : "Brooklyn Navy Yards"
       },
       {
-        "name": "Ellie Elephant",
-        "profilePic": "assets/img/speakers/elephant.jpg",
-        "about": "Ellie is an Elephant."
-      },
-      {
-        "name": "Molly Mouse",
-        "profilePic": "assets/img/speakers/mouse.jpg",
-        "about": "Molly is a Mouse."
-      },
-      {
-        "name": "Paul Puppy",
-        "profilePic": "assets/img/speakers/puppy.jpg",
-        "about": "Paul is a Puppy."
+        "name": "Tanzim Ali",
+        "profilePic": "assets/img/speakers/tanzim.jpg",
+        "status": "Okay",
+        "location" : "Brooklyn Navy Yards"
       }
     ];
 

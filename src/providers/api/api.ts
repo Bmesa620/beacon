@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
  */
 @Injectable()
 export class Api {
-  url: string = 'https://example.com/api/v1';
+  url: string = 'mongodb://tanzim_rayhan:Iamtheman143+@ds155315.mlab.com:55315/disasterrelief';
 
   constructor(public http: HttpClient) {
   }
